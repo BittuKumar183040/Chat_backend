@@ -1,0 +1,23 @@
+{
+  "name": "socketio",
+  "version": "1.0.0",
+  "description": "Learning for socket backend implementation",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bittu Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "node_modules",
+      "public"
+    ],
+    "delay": "1000"
+  }
+}
