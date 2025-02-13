@@ -37,7 +37,7 @@ io.on('connection', (socket) => {
 
   socket.on("joinRoom", (roomName) => {
     socket.join(roomName);
-    console.log(`User ${socket.id} joined room: ${roomName}`);
+    console.log(`User ${socket.id} Created Room: ${roomName}`);
   })
 
   socket.on('chat', ({ roomName, msg }) => {
